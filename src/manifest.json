@@ -9,6 +9,11 @@
     }
   ],
   "description": "February 14th wasn't always known as \"Valentine's Day\". Acknowledge its origins as Lupercalia with this text-replacer that applies a name proposed by Warren Ellis in 2008.",
+  "icons": {
+    "32": "icon-32.png",
+    "64": "icon-64.png",
+    "128": "icon-128.png"
+  },
   "name": "Valentines For Werewolves",
   "version": "0.2"
 }
