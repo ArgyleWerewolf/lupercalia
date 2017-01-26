@@ -8,7 +8,7 @@
       "run_at": "document_end"
     }
   ],
-  "description": "February 14th wasn't always known as \"Valentine's Day\". Acknowledge its origins as Lupercalia with this text-replacer that applies a name proposed by Warren Ellis in 2008.",
+  "description": "February 14th wasn't always \"Valentine's Day\". Acknowledge the day's origins by applying an alternate name coined by Warren Ellis.",
   "icons": {
     "32": "icon-32.png",
     "64": "icon-64.png",
