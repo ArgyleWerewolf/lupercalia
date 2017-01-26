@@ -1,17 +1,19 @@
-var elements = document.getElementsByTagName('*');
+const regex = /(saint )?(st(\.)?)? ?valentine'?s?/gi;
+const replacement = 'Horny Werewolf';
+const els = document.getElementsByTagName('*');
 
-for (var i = 0; i < elements.length; i++) {
-  var element = elements[i];
+for (var i = 0; i < els.length; i++) {
+  const el = els[i];
 
-  for (var j = 0; j < element.childNodes.length; j++) {
-    var node = element.childNodes[j];
+  for (var j = 0; j < el.childNodes.length; j++) {
+    const node = el.childNodes[j];
 
     if (node.nodeType === 3) {
-      var text = node.nodeValue;
-      var replacedText = text.replace(/(saint )?(st(\.)?)? ?valentine'?s?/gi, 'Horny Werewolf');
+      const text = node.nodeValue;
+      const replacedText = node.nodeValue.replace(regex, replacement);
 
       if (replacedText !== text) {
-      element.replaceChild(document.createTextNode(replacedText), node);
+        el.replaceChild(document.createTextNode(replacedText), node);
       }
     }
   }
