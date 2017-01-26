@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "author": "A. Quinton - argylewerewolf.com",
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["lupercalia.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "description": "February 14th wasn't always known as \"Valentine's Day\". Acknowledge its origins as Lupercalia with this text-replacer that applies a name proposed by Warren Ellis in 2008.",
+  "name": "Valentines For Werewolves",
+  "version": "0.1"
+}
