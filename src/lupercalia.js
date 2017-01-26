@@ -1,4 +1,4 @@
-const regex = /(saint )?(st(\.)?)? ?valentine'?s?/gi;
+const regex = /(saint )?(st(\.)? )?valentine'?s?/gi;
 const replacement = 'Horny Werewolf';
 const els = document.getElementsByTagName('*');
 let total = 0;
