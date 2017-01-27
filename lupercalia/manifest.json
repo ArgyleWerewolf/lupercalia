@@ -5,7 +5,7 @@
     {
       "matches": ["*://*/*"],
       "js": ["lupercalia.js"],
-      "run_at": "document_end"
+      "run_at": "document_idle"
     }
   ],
   "description": "February 14th wasn't always \"Valentine's Day\". Acknowledge the day's origins by applying an alternate name coined by Warren Ellis.",
@@ -15,5 +15,5 @@
     "128": "icon-128.png"
   },
   "name": "Valentines For Werewolves",
-  "version": "0.2"
+  "version": "0.3"
 }
